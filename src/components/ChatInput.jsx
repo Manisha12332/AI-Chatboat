@@ -87,6 +87,7 @@ const ChatInput = ({ onSendMessage, disabled }) => {
         borderTop: '1px solid',
         borderColor: 'divider',
         bgcolor: 'background.paper',
+        flexShrink: 0,
       }}
     >
       {/* Attachment Preview */}

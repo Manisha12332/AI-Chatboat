@@ -22,6 +22,7 @@ const ChatHeader = () => {
         bgcolor: 'background.paper',
         borderBottom: '1px solid',
         borderColor: 'divider',
+        flexShrink: 0,
       }}
     >
       <Toolbar sx={{ minHeight: 64 }}>

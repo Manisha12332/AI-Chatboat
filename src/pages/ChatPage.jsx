@@ -71,6 +71,7 @@ const ChatPage = ({ initialMessages = [], onMessagesChange }) => {
         flexDirection: 'column',
         height: '100%',
         bgcolor: 'background.default',
+        overflow: 'hidden',
       }}
     >
       {/* Header */}
@@ -80,6 +81,7 @@ const ChatPage = ({ initialMessages = [], onMessagesChange }) => {
       <Box
         sx={{
           flex: 1,
+          minHeight: 0,
           overflowY: 'auto',
           py: 2,
           display: 'flex',
